@@ -279,6 +279,10 @@ section p {
   color: var(--muted);
 }
 
+.item-badge {
+  display: block;
+}
+
 /* Talk-type badges */
 .badge {
   display: inline-block;
