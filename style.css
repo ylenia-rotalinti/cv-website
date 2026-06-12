@@ -283,6 +283,24 @@ section p {
   display: block;
 }
 
+/* Tech skill tags */
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.tech-tag {
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: #f0f0ee;
+  color: #444;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+}
+
 /* Talk-type badges */
 .badge {
   display: inline-block;
