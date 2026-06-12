@@ -279,6 +279,25 @@ section p {
   color: var(--muted);
 }
 
+/* Talk-type badges */
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.badge-chair    { background: #e8eef8; color: #2a5caa; }
+.badge-talk     { background: #e6f4ea; color: #276b3a; }
+.badge-video    { background: #fef3e2; color: #a05c00; }
+.badge-poster   { background: #f3e8fd; color: #6b3a9e; }
+.badge-review   { background: #fce8e8; color: #9e2a2a; }
+.badge-paper    { background: #e8f4f8; color: #1a6a7a; }
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   body { flex-direction: column; }
